@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+        <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+        <title>Regitracion Form</title>
+        <p><h3>Registracion Form</h3></p>
+    </head>
+    <br/> <br/>
+    <body>
+        <form method="get" action="">
+            <label for="firstname">First Name: </label>
+            <input type="text" name="FirstName" id="firstname"/>
+            <label for="lastname">Last Name: </label>
+            <input type="text" name="LastName" id="lastname"/>
+            <br/>
+            <br/>
+
+            <label for="company">Company: </label>
+            <input type="text" name="Company" id="company"/>
+            <br/>
+            <br/>
+
+            <label for="email">Email: </label>
+            <input type="email" name="Email" id="email" placeholder="example@yahoo.com"/>
+            <br/><br/>
+
+            <label for="areacode">Area Code:: </label>
+            <input type="areacode" name="AreaCode" id="areacode" placeholder="+389"/>
+
+            <label for="phonenumber">Phone Number: </label>
+            <input type="phonenumber" name="PhoneNumber" id="phonenumber" placeholder="070222222"/>
+            <br/><br/>
+
+            <label for="age">Age: </label>
+            <input type="number" name="Age" id="age" />
+            <br/> <br/>
+
+            <label for="subject">Subject: </label>
+            <select name="subject" id="subject">
+                <option disabled>Please select one subject: </option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="SoftwareTester">SoftwareTester</option>
+                <option value="Python">Python</option>
+            </select>
+
+            <br /><br />
+            <p>Are you existing member</p>
+            <input type="radio" name="member" id="Yes" value="Yes"/>
+            <label for="Yes">Yes</label>
+            <input type="radio" name="member" id="No" value="No"/>
+            <label for="No">No</label>
+            <br/><br/>
+
+            <input type="submit" value="Register" />
+            
+        </form>
+    </body>
+
+</html>
