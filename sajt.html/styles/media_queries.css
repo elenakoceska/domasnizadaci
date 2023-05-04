@@ -1,0 +1,94 @@
+* {
+
+    box-sizing: border-box;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    /*margin: 10px;*/
+    background-color: darkslategrey;
+    color: white;
+
+}
+
+.header{
+    background-image: url(/assets/1slika.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    margin: auto;
+}
+
+nav{
+    font-size: larger;
+    font-weight: bold;
+    margin: auto;
+
+}
+
+.class1{
+    display: inline;
+}
+
+
+.lista li {
+
+    display: inline;
+    font-size: large;
+    margin:20px;
+    /*padding-left:10px;*/
+    
+}
+
+h2{
+    margin-top: 100px;
+}
+
+.class2{
+    
+    /*flex-direction: row;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    right:0px;
+    /*float: right;*/
+
+    
+
+}
+
+.podclasa{
+    margin-right: 0;
+
+}
+
+.class3{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+
+}
+
+
+@media  (max-width: 768px){
+     
+        flex-wrap: wrap;
+        border-bottom: 2px solid lightgray;
+        border-right: 0;
+        margin-right: 0;
+}
+
+
+
+/*@media all and(max-width 480px) {
+    .class2{
+        flex-wrap: wrap
+    }
+};*/
+
+
+
+/*@media all and(min-width 576px) {
+    .lista{
+        font-size: 20px;
+    }
+};*/
+
+

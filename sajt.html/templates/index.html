@@ -4,10 +4,14 @@
         <meta charset="UTF=8"/>
         <meta http-equiv="X-UA-Compatible" content="IE-edge" />
         <meta name="viewport" content="width=devise-width, initial-scale=1.0"/>
+        <meta name="keywords" content="video, audio, iframe"/>
+        <meta name="description" content="video, audio, iframe"/>
+        <meta name="authors" content="Elena"/>
+        <link rel="stylesheet" href="/styles/media_queries.css" type="text/css">
         <title>Watch movies online</title>
     </head>
     <body>
-        <header>
+        <header class="header">
             <h1><i>HOME MOVIE</i></h1>
             <img src="../assets/1slika.jpg" alt="logo"/>
         
@@ -18,49 +22,66 @@
                 <label for="search">Search</label>
                 <input type="search" name="search" id="search" placeholder="Search"/>
                 <input type="submit" value="Go"/>
-            </form>       
-        </heaader>
+            </form>    
+            <br><br>   
+        </header>
         <nav>
             <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li class="class1"><a href="">HOME</a></li>  
+                <li class="class1"><a href="">NEW</a></li>
+                <li class="class1"><a href="">POPULAR</a></li>
+                <li class="class1"><a href="">ABOUT US</a></li>
+                <li class="class1"><a href="">CONTACT</a></li>
             </ul>
         </nav>
+        <br><br>
         <main>
             <section>
                 <article>
-                <h3>Select genre</h3>
+                    <h3>Select genre</h3>
+                <div class="lista">
                     <ul>
                         <li><a href="Comedy.html">Comedy</a></li>
                         <li><a href="Action.html">Action</a></li>
                         <li><a href="Fiction.html">Fiction</a></li>
                         <li><a href="Disney.html">Disney</a></li>
                     </ul>
+                </div>
                 </article>
             </section>
         </main>
         <aside>
+    
             <h2>This month premieres</h2>
+        <div class="class2">
             <ul>
+                <div class="podclasa">
                 <li>TOP GUN:Maverick</li>
                 <iframe width="300" height="300" src="https://www.youtube.com/embed/giXco2jaZ_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></video>
+            </div>
             </br>
             </br>
-
+                <div class="podclasa">
                 <li>AVATAR:The way of water</li>
                 <video src="../videos/avatar.mp4" type="video/mp4" autoplay controls width="300px"></video>
+                </div>
             </ul>
+        </div>
+        
         </br>
         </br>
+        <div class="class3">
             <div>
                 <label>Watch movies online:</label>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/yD8SN8rldsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/yD8SN8rldsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <br/>
             <div>
-                <label>Download aplication for free:</label>
-                <iframe width="200" height="200" src="https://play.google.com/store/apps" frameborder="0" allowfullscreen></iframe>
+                <label>Download application for free:</label>
+                <iframe width="300" height="300" src="https://play.google.com/store/apps" frameborder="0"allowfullscreen></iframe>
+            
             </div>
+        </div>
         </aside>
         <footer>
           <br/>
